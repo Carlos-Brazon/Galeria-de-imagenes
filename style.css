@@ -52,7 +52,7 @@ display: inline-block;
     width: 300px;
     height: 400px;
     margin: 0px 0px 0px 40px;
-    background-image: url("../../assets/galeria-de-imagenes/gallery_photo_1.avif");
+    background-image: url("https://raw.githubusercontent.com/GammaTechSchool/MAD_PART_Lovelace_2/main/src/css/exercises/image_gallery/images/gallery_photo_1.avif?token=GHSAT0AAAAAACAUSYWGEZ5HBZQH2KK37YP4ZBNN25A");
     background-position: center 100%;
     background-size: cover;
     background-repeat: no-repeat;
