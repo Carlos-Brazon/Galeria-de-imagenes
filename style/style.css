@@ -25,7 +25,7 @@ h2 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px 0px 40px 0px;
-} 
+}
 .p1 {
 color: aliceblue;
 text-align: left;
@@ -52,63 +52,77 @@ display: inline-block;
     width: 300px;
     height: 400px;
     margin: 0px 0px 0px 40px;
-    background-image: url("https://raw.githubusercontent.com/GammaTechSchool/MAD_PART_Lovelace_2/main/src/css/exercises/image_gallery/images/gallery_photo_1.avif?token=GHSAT0AAAAAACAUSYWGO2CM5PS7VA4OIBCEZBNPQHQ");
+    background-image: url("../assets/gallery_photo_1.avif");
     background-position: center 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 5%;
+    border-radius: 2%;
     display: inline-block;
 }
 .cuadro2 {
     width: 300px;
     height: 400px;
     margin: 0px 0px 0px 40px;
-    background-image: url("https://raw.githubusercontent.com/GammaTechSchool/MAD_PART_Lovelace_2/main/src/css/exercises/image_gallery/images/gallery_photo_2.avif?token=GHSAT0AAAAAACAUSYWHGX6YDPFJE3B4BSWWZBNPLDA");
+    background-image: url("../assets/gallery_photo_2.avif");
     background-position: 80% 10%;
     background-repeat: no-repeat;
-    border-radius: 5%;
+    border-radius: 2%;
     display: inline-block;
 }
 .cuadro3 {
     width: 300px;
     height: 400px;
     margin: 0px 0px 0px 40px;
-    background-image: url("https://raw.githubusercontent.com/GammaTechSchool/MAD_PART_Lovelace_2/main/src/css/exercises/image_gallery/images/gallery_photo_3.avif?token=GHSAT0AAAAAACAUSYWH4ZHHMJMA237OQG3YZBNPL5Q");
+    background-image: url("../assets/gallery_photo_3.avif");
     background-position: 15% center;
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 5%;
+    border-radius: 2%;
     display: inline-block;
 }
 
-.li {
-    margin: 0px 10px 10px 170px;
+table {
+    border-collapse: collapse;
+    margin: 1px 1px 1px 1px;
+}
+
+td {
+    /* border: 1px solid rgb(8, 8, 8); */
+    width: 182px;
+    height: 30px;
+    text-align: right;
+    margin: 0px 10px 10px 200px;
+    padding: 0px 0px 10px 10px;
+    color: aliceblue;
+    font-size:larger;
+}
+
+th {
+    width: 134px;
+    height: 30px;
+    margin: 0px 10px 10px 200px;
     padding: 0px 10px 10px 10px;
-    color: rgb(215, 212, 212);
-    display: inline-block;
-}
-.buy {
-    width: 35px;
-    height: 20px;
-    margin: 0px 10px 10px 40px;
-    padding: 0px 0px 0px 10px;
-    border:3px solid rgb(20, 250, 20);
-    border-radius: 5px;
-    display: inline-block;
-}
-.boton {
-    width: 25px;
-    padding: 0px;
-    margin: 0px;
-    color: rgb(216, 209, 209);
+    text-align: right;
     background-color: rgb(32, 32, 32);
-    border: none;
+}
+
+button {
+    width: 40px;
+    height: 25px;
+    padding: 0px;
+    color: rgb(20, 250, 20);
+    background-color: rgb(32, 32, 32);
+    border: 3px solid rgb(20, 250, 20);
     transition: background-color 1.5s ease;
     text-align: center;
-    }
+    display: inline-block;
+    border-radius: 5px;
+}
 button:hover {
-        background-color: #5a5353;
-      }
+    background-color: rgb(55, 55, 55);
+    transform: scale(1.15);
+    transition: background-color 1.5s ease;
+}
 
 /* aqui empieza la segunda mitad */
 
@@ -145,34 +159,33 @@ display: inline-block;
     width: 300px;
     height: 400px;
     margin: 0px 0px 0px 40px;
-    background-image: url("https://raw.githubusercontent.com/GammaTechSchool/MAD_PART_Lovelace_2/main/src/css/exercises/image_gallery/images/gallery_photo_4.avif?token=GHSAT0AAAAAACAUSYWGPHOAWNYFXVR4SQVUZBNPMSQ");
+    background-image: url("../assets/gallery_photo_4.avif");
     background-position: left top;
     background-size: 150px;
     background-repeat: repeat;
-    border-radius: 5%;
+    border-radius: 2%;
     display: inline-block;
 }
 .cuadro5 {
     width: 300px;
     height: 400px;
     margin: 0px 0px 0px 40px;
-    background-image: url("https://raw.githubusercontent.com/GammaTechSchool/MAD_PART_Lovelace_2/main/src/css/exercises/image_gallery/images/gallery_photo_5.avif?token=GHSAT0AAAAAACAUSYWG7VQ3WEPJMOPRJKAGZBNPNMQ");
+    background-image: url("../assets/gallery_photo_5.avif");
     background-position: right bottom;
     background-repeat: no-repeat;
-    border-radius: 5%;
+    border-radius: 2%;
     display: inline-block;
 }
 .cuadro6 {
     width: 300px;
     height: 400px;
     margin: 0px 0px 0px 40px;
-    background-image: url("https://raw.githubusercontent.com/GammaTechSchool/MAD_PART_Lovelace_2/main/src/css/exercises/image_gallery/images/gallery_photo_6.avif?token=GHSAT0AAAAAACAUSYWGDNUZGAMBWTWQ3ES2ZBNPN7A");
+    background-image: url("../assets/gallery_photo_6.avif");
     background-position: 15% center;
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 5%;
+    border-radius: 2%;
     display: inline-block;
 }
 
- 
-  
+
